@@ -1,0 +1,36 @@
+// variables and constants
+
+//constant-->once it is initialized ,value cant be changed  
+// it should be initialized and declared at the same line otherwise it will show error
+
+// 
+/*
+  wrong approach
+
+const accountId;
+accountId=1234
+*/
+
+// right approach
+const accountId=1234
+
+//variables-->name of the memory location
+
+let accountEmail="hitesh@google.com"
+var accountEmailPassword="12345"
+accountCity="jaipur" // it is not recommended
+let accountState; // output is undefined
+
+
+// accountId=2 // you cant reinitialize the value of constant
+
+// you can reinitialize the value
+accountEmail="hc@gmail.com"
+accountEmailPassword="3423"
+accountCity="bengaaluru"
+
+// it display message  as a form of table
+console.table([accountEmail,accountEmailPassword,accountCity,accountState])
+
+
+// dont use var due to block and function scope issue read in screenshot or in notion 
