@@ -1,0 +1,53 @@
+// operations
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2/2)
+console.log(2**2)// exponential --> base**power
+console.log(2%2)// remainder
+
+
+let str1="1"
+let str2="2"
+console.log(str1+str2)// output is 12 
+console.log("1"+2)// 12
+console.log(1+"2")//12
+console.log("1"+2+3)// it converts into all the no into strings
+console.log(1+2+"3")// first 1+2=3 then then converts into string
+
+console.log(+true)//1
+console.log(+"")//0
+
+// comparisons
+//easy peasy
+console.log(2>=2)
+console.log(2!=2)
+console.log(2==2)
+console.log(2<=2)
+console.log(2>2)
+console.log(2<2)
+
+// comparison bw two different datatype---> avoid these types of comparisons
+console.log("2">1)
+console.log("02">1)
+console.log("2">true)
+
+//null
+console.log(null>0) // false
+console.log(null==0)//false
+console.log(null>=0)//true
+// reason is that equality check and comparisons work differently
+// so in the third case comparison convert null to number treating it as 0 thats why null>=0 is true and null>0 is false
+
+
+// for undefined all the case are zero(cases we use in null)
+
+//strict check
+// ===  not only checks the value but also checks the datatype
+
+
+
+
+
+
+
