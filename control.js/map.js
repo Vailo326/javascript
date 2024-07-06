@@ -40,3 +40,4 @@ const shopping_cart=[
 ]
 
 const total_cost=shopping_cart.reduce((acc,item)=> (acc+item.price),0) // ise in arrow fn if there is one line and it increase readability using ()
+console.log(total_cost)
